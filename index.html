@@ -42,23 +42,27 @@
       line-height: 24px;
       }
 
-      .navigation, .pitch, .section1, .section2, .faq, .footer {
+      /* Video pitch and Action */
+      .pitch {
+        padding: 2.5% 0%;
+      }
+      .order {
+      padding: 2% 0%;
+      }
+      .section1, .section2, .faq, .footer {
         padding: 10px 0px 10px 0px;
       }
-      .video, .thermometer, .order, .social {
-        border: 1px dotted;
+      .actions {
+        background-color: #343434;
+        padding: 3% 0%;
+      }
+      .video, .thermometer, .order, .social, .statistics {
         text-align: center;
       }
-      .video {
-      /* Internal borders have 1 px width, thus need to add 4 x 1px to 120px. */
-      height: 124px;
-      line-height: 124px;
+      .statistics h3, .statistics p {
+        color: white;
       }
-      .thermometer, .order, .social {
-      /* line-height to vertically center: http://phrogz.net/css/vertical-aligh/index.html */
-      height: 40px;
-      line-height: 40 px;
-      }
+      
       div.row {
         border: 1px solid;
       }
